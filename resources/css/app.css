@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#homebody {
+	background-color:#5F9EA0;
+}
+
+#legalbody {
+	background-color:#F5F5F5;
+}
+
+#categorybody {
+	background-color:#9ACD32;
+}
+
+#cookie {
+	background-color:#D2691E;
+}
+
+#logo {
+	width:25%;
+	float:right;
+	border-radius:50%;
+	margin-right:500px;
+	margin-top:15px;
+	height:30%;
+}
+
+#logo2 {
+	width:25%;
+	float:right;
+	border-radius:50%;
+	margin-right:500px;
+	margin-top:6px;
+	height:30%;
+}
+
+#logo3 {
+	width:25%;
+	float:right;
+	border-radius:50%;
+	margin-right:500px;
+	margin-top:6px;
+	height:30%;
+}
+
+#category {
+
+	float:right;
+	border-radius:15px;
+	margin-right:265px;
+    width:40%;
+    height:50%;
+}
+
+#tag {
+
+	float:right;
+	border-radius:20px;
+	margin-right:265px;
+    width:40%;
+    height:50%;
+    filter:contrast(180%);
+}
+#search {
+	width:35%;
+	height:45%;
+	float:right;
+	margin-right:155px;
+    filter:contrast(180%);
+    border-radius:8px;
+	
+
+}
+
+#aboutbody {
+	background-color:#BDB76B;
+}
+
+#tagbody {
+	background-color:#D2B48C;
+}
+
+#articlebody {
+	background-color:#778899;
+}
+
+#searchbody {
+	background-color:#4682B4;
+}
+
+.button {
+	color:black;
+	background-color:gray;
+	padding: 1px 15px;
+	font-family: verdana;
+	border-radius:65%;
+	outline: black solid 2px;
+	outline-offset:2px;
+	
+}
+
+.button:hover{
+	background-color:cyan;
+}
